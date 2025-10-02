@@ -7,7 +7,7 @@ It integrates with **Azure OpenAI**, **Azure Speech Services**, and **Azure Cosm
 
 ## 🚀 Features
 
-- 🎭 Custom AI Avatars (Binaka, Sri, Mike) with Azure Speech Synthesis
+- 🎭 Custom AI Avatars (custom avatars) with Azure Speech Synthesis
 - 💬 Real-time conversational interface (speech-to-text + text-to-speech)
 - 🔍 Cognitive Search integration for knowledge mining
 - 📊 Session analytics and conversation history
