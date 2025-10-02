@@ -653,12 +653,12 @@
 
     <!-- Hidden configuration with hardcoded values -->
     <div id="configuration" style="display: none;">
-        <input id="APIKey" type="password" value="e7728fa2f8df41ec943223b90762f8cd" />
+        <input id="APIKey" type="password" value="APIKEY" />
         <select id="region">
             <option value="westus2" selected>West US 2</option>
         </select>
-        <input id="azureOpenAIEndpoint" type="text" value="https://ganaopenai.openai.azure.com/" />
-        <input id="azureOpenAIApiKey" type="password" value="929c8db52e8d433b9283eadbecf211ab" />
+        <input id="azureOpenAIEndpoint" type="text" value="API_ENDPOINT" />
+        <input id="azureOpenAIApiKey" type="password" value="APIKEY" />
         <input id="azureOpenAIDeploymentName" type="text" value="gpt-4o" />
         <textarea id="prompt">You are a Microsoft AI consultant specializing in Azure AI solutions.</textarea>
         <input type="checkbox" id="enablePrivateEndpoint">
@@ -672,7 +672,7 @@
         <input id="customVoiceEndpointId" type="text" />
         <input type="checkbox" id="continuousConversation" checked>
         <!-- CRITICAL: Custom Avatar Configuration -->
-        <input id="talkingAvatarCharacter" type="text" value="Binaka-half" />
+        <input id="talkingAvatarCharacter" type="text" value="AVATARCHARACTERNAME" />
         <input id="talkingAvatarStyle" type="text" value="" />
         <input id="backgroundColor" type="text" value="#FFFFFFFF" />
         <input id="backgroundImageUrl" type="text" value="" />
@@ -918,7 +918,7 @@
     <script>
         // Azure Cosmos DB Configuration - MAINTAINED FROM WORKING CODE
         const COSMOS_CONFIG = {
-            connectionString: "mongodb+srv://ganachan2020:Welcome%40290784@cosmos-mcp-agent.global.mongocluster.cosmos.azure.com/?tls=true&authMechanism=SCRAM-SHA-256&retrywrites=false&maxIdleTimeMS=120000",
+            connectionString: "mongodb+srv:COSMOSDBSTRING",
             databaseName: "customerservice",
             containerName: "AI-Avatar"
         };
